@@ -38,7 +38,7 @@ try:
             alt.Chart(df)
             .mark_line()
             .encode(
-                x=alt.X("stichtag", title="Stichtag"),
+                x=alt.X("stichtag", title="Stichtag1"),
                 y=alt.Y("einwohner", title="Einwohner"),
                 color=alt.Color("stadtteil_name", title="Stadtteil"),
             )
